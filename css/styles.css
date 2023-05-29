@@ -33,7 +33,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--title-color);
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -42,7 +42,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .header-menu-item {
@@ -104,6 +104,10 @@ body {
   background-color: var(--link-btm-color);
   cursor: pointer;
 }
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
 
 /*-----------FUTURE------------*/
 .feature-list-title {
@@ -133,6 +137,14 @@ body {
 }
 
 /*-----------TEAM------------*/
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-title-list {
+  background-color: #ffffff;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -165,18 +177,7 @@ body {
 }
 
 .footer-logo {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--footer-color-text);
-}
-
-.footer-logo span {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -184,6 +185,17 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--link-btm-color);
+}
+
+.span-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 
 .footer-text {
@@ -195,17 +207,29 @@ body {
 
 /*---------PORTFOLIO------*/
 .filters-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
   color: var(--link-btm-color);
   background-color: var(--footer-color-text);
   cursor: pointer;
 }
+
+.filters-list-item:hover,
+.filters-list-item:focus {
+  color: #404bbf;
+}
+
 .filters-button:hover,
-.filters-button:active {
+.filters-button:focus {
   color: var(--white-text-color);
 }
 
 .filters-button:hover,
-.filters-button:active {
+.filters-button:focus {
   background-color: #404bbf;
 }
 
@@ -215,12 +239,12 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 
 .fcards-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-text-color);
 }
