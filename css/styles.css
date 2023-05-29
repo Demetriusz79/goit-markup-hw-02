@@ -68,6 +68,11 @@ body {
   color: var(--main-text-color);
 }
 
+.header-menu-item:hover,
+.header-menu-item:focus {
+  color: #404bbf;
+}
+
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: #404bbf;
@@ -139,6 +144,10 @@ body {
 /*-----------TEAM------------*/
 .team {
   background-color: #f4f4fd;
+}
+
+.team-list-item {
+  background-color: #ffffff;
 }
 
 .team-title-list {
@@ -231,6 +240,9 @@ body {
 .filters-button:hover,
 .filters-button:focus {
   background-color: #404bbf;
+}
+.header-menu-link:hover {
+  color: #404bbf;
 }
 
 /*-----------FILTER CARDS-----*/
